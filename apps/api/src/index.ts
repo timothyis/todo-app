@@ -4,6 +4,13 @@ const fastify = Fastify({
     logger: true
 })
 
+/**
+ * This API needs to (v1/mvp):
+ * Return a list of todos
+ * Add a todo
+ * Delete a todo
+ */
+
 fastify.get('/', async (request, reply) => {
     return { hello: 'world' }
 })
